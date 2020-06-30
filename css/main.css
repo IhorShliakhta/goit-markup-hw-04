@@ -238,6 +238,7 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .qualities-li li+li, 
@@ -395,9 +396,19 @@ footer, footer a {
     justify-content: space-between;
     padding: 0;
     margin-bottom: 95px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .our-clients-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.link-clients {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -407,23 +418,24 @@ footer, footer a {
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
+
 }
 
-.our-clients-list li:hover {
-    border: 1px solid #2196F3;
-    fill: #2196F3;
-}
-
-
-
-.clients-link:hover{
-    fill: #2196F3;
+.link-clients:hover {
+    border-color: #2196F3;
 }
 
 .clients-link {
     width: 45px;
     height: 50px;
     fill: var(--svg-fill);
+}
+
+.link-clients:hover .clients-link {
+    fill: #2196F3;}
+
+.client s-link:hover {
+    fill: #2196F3;
 }
 
 .project p {
