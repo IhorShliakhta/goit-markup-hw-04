@@ -19,11 +19,20 @@
     </nav>
     <div class="contacts">
       <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <li class="contackt-hover">
+          <svg class="icon-contact">
+            <use href="img/sprite.svg#icon-mail"></use>
+          </svg>
+          <a href="mailto:info@devstudio.com">
+        
+            info@devstudio.com</a>
         </li>
-        <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="contackt-hover">
+          <a href="tel:+380961111111">
+            <svg class="icon-contact">
+              <use href="img/sprite.svg#icon-phone"></use>
+            </svg>
+            +38 096 111 11 11</a>
         </li>
       </ul>
     </div>
@@ -43,8 +52,8 @@
           <li>
             <div class="qualities-box1">
               <a href="" aria-label="satelit" class="border-qualities satelit">
-                <svg>
-                  <use xlink:href="./img/sprite.svg#icon-mail"></use>
+                <svg class="qualities-icon icon-satelit">
+                  <use xlink:href="./img/sprite.svg#icon-satelit"></use>
                 </svg>
               </a>
               <h3 class="section-subtitle">Внимание к деталям</h3>
@@ -54,7 +63,11 @@
           </li>
           <li>
             <div class="qualities-box2">
-              <a href="" aria-label="clock" class="border-qualities clock"></a>
+              <a href="" aria-label="clock" class="border-qualities clock">
+                <svg class="qualities-icon icon-clock">
+                  <use xlink:href="./img/sprite.svg#icon-clock"></use>
+                </svg>
+              </a>
               <h3 class="section-subtitle">Пунктуальность</h3>
               <p>Задача организации, 
                 в особенности же рамки и место обучения кадров влечет за собой.</p>
@@ -62,7 +75,11 @@
           </li>
           <li>
             <div class="qualities-box3">
-              <a href="" aria-label="laptop" class="border-qualities laptop"></a>
+              <a href="" aria-label="laptop" class="border-qualities laptop">
+                <svg class="qualities-icon icon-laptop">
+                  <use xlink:href="./img/sprite.svg#icon-laptop"></use>
+                </svg>
+              </a>
               <h3 class="section-subtitle">Планирование</h3>
               <p>Равным образом консультация 
                 с широким активом в значительной степени обуславливает.</p>
@@ -70,7 +87,11 @@
           </li>
           <li>
             <div class="qualities-box4">
-              <a href="" aria-label="cosmoman" class="border-qualities cosmoman"></a>
+              <a href="" aria-label="astronaut" class="border-qualities cosmoman">
+                <svg class="qualities-icon icon-astronaut">
+                  <use xlink:href="./img/sprite.svg#icon-astronaut"></use>
+                </svg>
+              </a>
               <h3 class="section-subtitle">Современные технологии</h3>
               <p>Значимость этих проблем настолько очевидна, 
                 что реализация плановых заданий.</p>
@@ -104,15 +125,38 @@
               <img src="img/john.png" alt="фото мужчины" width="270" height="260">
               <h4>Николай Кучеренко</h4>
               <span class="profession">Product Designer</span>
-              <ul>
-                <li>
-                  <a href="" aria-label="instagram">
-                  </a>
-                </li>
-                <li><a href="" aria-label="twiter"></a></li>
-                <li><a href="" aria-label="facebook"></a></li>
-                <li><a href="" aria-label="linkedin"></a></li>
-              </ul>
+              <div class="social-link-profile">
+                <ul>
+                  <li>
+                    <a href="" aria-label="instagram" class="social-icon">
+                      <svg class="svg-social instagram-icon">
+                        <use xlink:href="./img/sprite.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="twiter" class="social-icon">
+                      <svg class="svg-social twiter-icon">
+                        <use xlink:href="./img/sprite.svg#icon-twit"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="facebook" class="social-icon">
+                      <svg class="svg-social facebook-icon">
+                        <use xlink:href="./img/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="linkedin" class="social-icon">
+                      <svg class="svg-social linkedin-icon">
+                        <use xlink:href="./img/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div> 
           </li>
           <li>
@@ -120,12 +164,38 @@
               <img src="img/marta.png" alt="фото женщины" width="270" height="260">
               <h4>Ольга Иванова</h4>
               <span class="profession">Frontend Developer</span>
-              <ul>
-                <li><a href="" aria-label="instagram"></a></li>
-                <li><a href="" aria-label="twiter"></a></li>
-                <li><a href="" aria-label="facebook"></a></li>
-                <li><a href="" aria-label="linkedin"></a></li>
-              </ul>
+              <div class="social-link-profile">
+                <ul>
+                  <li>
+                    <a href="" aria-label="instagram" class="social-icon">
+                      <svg class="svg-social instagram-icon">
+                        <use xlink:href="./img/sprite.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="twiter" class="social-icon">
+                      <svg class="svg-social twiter-icon">
+                        <use xlink:href="./img/sprite.svg#icon-twit"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="facebook" class="social-icon">
+                      <svg class="svg-social facebook-icon">
+                        <use xlink:href="./img/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="linkedin" class="social-icon">
+                      <svg class="svg-social linkedin-icon">
+                        <use xlink:href="./img/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
           </div>
           </li>
           <li>
@@ -133,13 +203,38 @@
               <img src="img/robert.png" alt="фото мужчины" width="270" height="260">
               <h4>Андрей Шевченко</h4>
               <span class="profession">Marketing</span>
-              <ul>
-                <li><a href="" aria-label="instagram">
-                </a></li>
-                <li><a href="" aria-label="twiter"></a></li>
-                <li><a href="" aria-label="facebook"></a></li>
-                <li><a href="" aria-label="linkedin"></a></li>
-              </ul>
+              <div class="social-link-profile">
+                <ul>
+                  <li>
+                    <a href="" aria-label="instagram" class="social-icon">
+                      <svg class="svg-social instagram-icon">
+                        <use xlink:href="./img/sprite.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="twiter" class="social-icon">
+                      <svg class="svg-social twiter-icon">
+                        <use xlink:href="./img/sprite.svg#icon-twit"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="facebook" class="social-icon">
+                      <svg class="svg-social facebook-icon">
+                        <use xlink:href="./img/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="linkedin" class="social-icon">
+                      <svg class="svg-social linkedin-icon">
+                        <use xlink:href="./img/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </li>
           <li>
@@ -147,12 +242,38 @@
               <img src="img/martin.png" alt="фото мужчины" width="270" height="260">
               <h4>Иван Николаев</h4>
               <span class="profession">UI Designer</span>
-              <ul>
-                <li><a href="" aria-label="instagram"></a></li>
-                <li><a href="" aria-label="twiter"></a></li>
-                <li><a href="" aria-label="facebook"></a></li>
-                <li><a href="" aria-label="linkedin"></a></li>
-              </ul>
+              <div class="social-link-profile">
+                <ul>
+                  <li>
+                    <a href="" aria-label="instagram" class="social-icon">
+                      <svg class="svg-social instagram-icon">
+                        <use xlink:href="./img/sprite.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="twiter" class="social-icon">
+                      <svg class="svg-social twiter-icon">
+                        <use xlink:href="./img/sprite.svg#icon-twit"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="facebook" class="social-icon">
+                      <svg class="svg-social facebook-icon">
+                        <use xlink:href="./img/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" aria-label="linkedin" class="social-icon">
+                      <svg class="svg-social linkedin-icon">
+                        <use xlink:href="./img/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </li>
         </ul>
@@ -161,13 +282,49 @@
     <section class="our-clients">
       <div class="conteiner clients">
         <h2>Постоянные клиенты</h2>
-        <ul>
-          <li><a href="" aria-label="company1"></a></li>
-          <li><a href="" aria-label="company2"></a></li>
-          <li><a href="" aria-label="company3"></a></li>
-          <li><a href="" aria-label="company4"></a></li>
-          <li><a href="" aria-label="company5"></a></li>
-          <li><a href="" aria-label="company6"></a></li>
+        <ul class="our-clients-list">
+          <li>
+            <a href="#" aria-label="company1" class="link-clients">
+              <svg class="clients-link">
+                <use xlink:href="./img/sprite.svg#icon-logo-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="company2">
+              <svg class="clients-link">
+                <use xlink:href="./img/sprite.svg#icon-logo-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="company3">
+              <svg class="clients-link">
+                <use xlink:href="./img/sprite.svg#icon-logo-3"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="company4">
+              <svg class="clients-link">
+                <use xlink:href="./img/sprite.svg#icon-logo-4"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="company5">
+              <svg class="clients-link">
+                <use xlink:href="./img/sprite.svg#icon-logo-5"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="company6">
+              <svg class="clients-link">
+                <use xlink:href="./img/sprite.svg#icon-logo-6"></use>
+              </svg>
+            </a>
+          </li>
         </ul>
       </div>
     </section>
@@ -187,12 +344,38 @@
       </div>
       <div class="join-us">
         <h3>присоединяйтесь</h3>
-        <ul>
-          <li><a href="" aria-label="instagram"></a></li>
-          <li><a href="" aria-label="twiter"></a></li>
-          <li><a href="" aria-label="facebook"></a></li>
-          <li><a href="" aria-label="linkedin"></a></li>
-        </ul>
+        <div class="footer-link">
+          <ul>
+            <li>
+              <a href="#" aria-label="instagram"  class="footer-social-icons">
+                <svg class="footer-icon">
+                  <use xlink:href="./img/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="twiter" class="footer-social-icons">
+                <svg class="footer-icon">
+                  <use xlink:href="./img/sprite.svg#icon-twit"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="facebook" class="footer-social-icons">
+                <svg class="footer-icon">
+                  <use xlink:href="./img/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="linkedin" class="footer-social-icons">
+                <svg class="footer-icon">
+                  <use xlink:href="./img/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="sing-up">
         <h3>Подпишитесь на рассылку</h3>
